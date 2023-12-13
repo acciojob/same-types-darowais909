@@ -2,10 +2,10 @@ function isSameType(value1, value2) {
   let a=typeof value1;
 	let b=typeof value2;
 	if(a==b){
-		console.log("true");
+		return "true";
 	}
 	else{
-		console.log("false");
+		return "false";
 	}
 }
 
