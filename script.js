@@ -1,6 +1,6 @@
-function isSameType(value3, value4) {
-  let a=typeof value3;
-	let b=typeof value4;
+function isSameType(value1, value2) {
+  let a=typeof value1;
+	let b=typeof value2;
 	if(a==b){
 		return "true";
 	}
