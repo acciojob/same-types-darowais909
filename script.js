@@ -7,8 +7,8 @@ function isSameType(value1, value2) {
 	else if(a!==b){
 		return "false";
 	}
-	else if(a==Nan && b==NaN){
-		return "true";
+	else if(a==Nan || b==NaN){
+		return "false";
 	}
 }
 
