@@ -4,8 +4,11 @@ function isSameType(value1, value2) {
 	if(a==b){
 		return "true";
 	}
-	else{
+	else if(a!==b){
 		return "false";
+	}
+	else{
+		return "true";
 	}
 }
 
