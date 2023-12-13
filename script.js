@@ -1,15 +1,14 @@
 function isSameType(value1, value2) {
   let a=typeof value1;
 	let b=typeof value2;
-	if(a==b){
+	if(typeof a==NaN && typeof b==NaN){
+		return true;
+	}
+	else if(a==b){
 		return "true";
 	}
-	else if(a!==b){
+	else{
 		return "false";
-	}
-	else if(a==Nan || b==NaN){
-		return "false";
-	}
 }
 
 // do not change the code below.
