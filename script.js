@@ -7,7 +7,7 @@ function isSameType(value1, value2) {
 	else if(a!==b){
 		return "false";
 	}
-	else{
+	else if(a==Nan && b==NaN){
 		return "true";
 	}
 }
